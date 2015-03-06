@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget-bot.Microsoft.TeamFoundation.ProjectManagement</id>
+    <version>12.0.21005.1</version>
+    <title>nuget-bot.Microsoft.TeamFoundation.ProjectManagement</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/bb130146(v=vs.110).aspx</projectUrl>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/bb130146(v=vs.110).aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Team Foundation is a multitiered application for which users install some components on client computers and other components on the application tier.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft TeamFoundation ProjectManagement nuget-bot</tags>
+    <dependencies></dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="**\Microsoft.TeamFoundation.ProjectManagement.dll" target="lib" />
+	<file src="**\Microsoft.TeamFoundation.ProjectManagement.xml" target="lib" /> 
+  </files>
+</package>
